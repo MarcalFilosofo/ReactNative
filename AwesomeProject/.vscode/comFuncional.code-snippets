@@ -5,13 +5,17 @@
 		"body": [
 			"import React from 'react'",
 			"import {View, Text} from 'react-native'",
-			"import Estilo from './estilo'",
-			"",
+			"import style from '../style'",
+
 			"export default props => {",
 			"   return(",
-			"      <Text>$1</Text>",
+			"      <>",
+			"         <Text style={style.txtG}>",
+			"            ",
+			"         </Text>",
+			"      </>",
 			"   )",
-			"}"
+			"}",
 		],
 		"description": "Log output to console"
 	}
